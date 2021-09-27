@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta class="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <title>Name</title>
+
+    
+    <a href="#" class="nav">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+    </a>
+    <style>
+        .nav div{
+            height: 4px;
+            background-color: black;
+            margin: 5px 0;
+            border-radius: 25px;
+        }
+        .nav{
+            width: 30px;
+            display: block;
+            margin: 1em 0 0 1em;
+        }
+        .one{
+            width: 30px;
+        }
+        .two{
+            width: 20px;
+        }
+        .three{
+            width: 25px;
+        }
+        .nav:hover div{
+            width: 30px;
+            transition: 0.2s ease;
+        }
+    </style>
+    <div id="dog">
+        <form action="http://www.google.com" target="_blank">
+            <input type="text" name="" placeholder="search here" style="border-radius: 5px;">
+            <button type="menu">Google</button>
+        </form>
+    </div>
+    
+    <hr>
+    <h1> I am making a checkbox of names that were present at the meeting on <b>OCTOBER 1ST 1966</b></h1>
+    <hr>
+    <body>
+        <div>
+            <div id="pea">
+                <form action="#" target="_blank">
+                    <textarea name="message" id cols="50px" rows="30px" placeholder="leave a comment"></textarea>
+                    <br/>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </div>
+            <form action="#">
+            <ol>
+                <li><input type="checkbox" name="checkbox" checked>
+                <label>Grace</label></li>
+                <br/>
+                <li><input type="checkbox" name="checkbox" >
+                <label>Favour</label></li>
+                <br/>
+                <li><input type="checkbox" name="checkbox" checked>
+                <label>Susan</label></li>
+                <br/>
+                <li><input type="checkbox" name="checkbox" >
+                <label>Claire</label></li>
+                <br/>
+                <li><input type="checkbox" name="checkbox" checked>
+                <label>Sym</label></li>
+                <br/>
+                <li><input type="checkbox" name="checkbox" checked="checked">
+                <label>Stephanie</label></li>
+                <br/>
+                <li><input type="checkbox" name="checkbox" checked="checked">
+                <label>Steffi</label></li>
+                <br/>
+                <li><input type="checkbox" name="checkbox" checked="checked">
+                <label>Angelica</label></li>
+                <br/>
+                <li><input type="checkbox" name="checkbox">
+                <label>Booker</label></li>
+                <br/>
+                <li><input type="checkbox" name="checkbox" checked>
+                <label>George</label></li>
+                <br/>
+                <li><input type="checkbox" name="checkbox">
+                <label>Lois</label></li>
+            </ol>
+            <hr class="dog">
+            <div class="vl"></div>
+            <style>
+                .vl{
+                    border-left: 1px solid white;
+                    height: 1000px;
+                    margin-left: 50%;
+                }
+            </style>
+
+
+            </form>
+        </div>
+        <div id="cat">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Socials</a>
+        </div>
+    </body>
+</html>
+<style>
+    #dog{
+        float: right;
+        height: 30px;
+    }
+    .dog{
+        margin-top: 0%;
+        width: 100%;
+        
+    }
+    #cat{
+        background-color: thistle;
+        float: right;
+        text-align: center;
+        margin-top: 100%;
+        width: 100%;
+        height: 100px;
+        animation-name: check;
+        animation-iteration-count: infinite;
+        animation-duration: 60s;
+        filter: opacity(70%);
+    }
+    #cat a{
+        color: white;
+        padding: 16px;
+        margin-top: -20px;
+    }
+    a:hover{
+        width: 20px;
+        height: 20px;
+        transition: 0.2s ease-in-out;
+    }
+    ol{
+        float:left;
+    }
+    body{
+        background-color: black;
+        color: white;
+        animation-name: check;
+        animation-duration: 60s;
+        background-size: cover;
+        animation-iteration-count: infinite;
+        font-size: small;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    h1{
+        animation-name: checks;
+        color: black;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+    }
+    label{
+        animation-name: checks;
+        color: black;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes check{
+        0%{background-color: rgb(74, 107, 131);}
+        20%{background-color: rgb(16, 78, 122);}
+        50%{background-color: rgb(73, 50, 7);}
+        70%{background-color: rgb(218, 226, 236);}
+        100%{background-color: rgba(0, 0, 0, 0.1);}
+    }
+    @keyframes checks{
+        0%{color: black;}
+        20%{color: gray;}
+        50%{color: rgb(16, 78, 122);;}
+        70%{color: black;}
+        100%{color: rgb(73, 50, 7);}
+    }
+    @keyframes checkss{
+        0%{background-color: black;}
+        20%{background-color: gray;}
+        50%{background-color: white;}
+        70%{background-color: black;}
+        100%{background-color: white;}
+    }
+    #pea{
+        float: right;
+        margin-bottom: 50%;
+        text-align: center;
+    }
+    textarea{
+        background-color: black;
+        color:white;
+        animation-name: checkss;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+        width: 150px;
+        height: 100px;
+       
+    }
+    textarea:hover{
+        width: 200px;
+        height: 500px;
+        transition:0.2s ease-in;
+    }
+</style>
+
+
