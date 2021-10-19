@@ -15,7 +15,7 @@
             <label for="Email">Email</label>
             <textarea id="ant" cols="10px" rows="2px" placeholder="*Email" required></textarea><br/>
             
-            <br/>
+            <br/><hr><br/>
             <div class="monopoly">
                 <div class="monopoly1">Select Gender</div>
                 <div class="BG">
@@ -26,7 +26,124 @@
             </div>
         </form><br/>
         </div>
+        <div class="class">
+        <img class="ant" src="https://i0.wp.com/www.soloplay.ng/wp-content/uploads/2021/05/Buju-Outside-mp3-image.jpg?w=500&ssl=1" width="331px" height="400px" class="phones img" alt="">
+        </div>
+
+<div class="content-background">
+        <div class="container">
+            <div class="box">
+                <div class="icon">VC</div>
+                <div class="content">
+                    <h3>Victor Chinedu</h3>
+                    <p>Creator, Website designer and content creator fine boy plenty pimple REEEEEEEEEEEEEEEESSSSSSSTTT ohh and nice voice</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+            <div class="icon" id="icon1">TGM</div>
+                <div class="content">
+                    <h3>Tami G.M</h3>
+                    <p>Fashionista, Level-X boss. Fine girl plenty pleeeeenty pimples. Big brains</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="box">
+            <div class="icon" id="icon2">BJ</div>
+                <div class="content">
+                    <h3>Buju</h3>
+                    <p>When i give gbedu e dey blow their mind. You know they can't see me outside cos me i dey work i dey grind</p>
+                    <a href="https://db.soloplay.com.ng/wp-content/uploads/2021/05/Buju_-_Outside_Soloplay.ng.mp3">Download Song</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
     </body>
+
+    <style>
+        .content-background{
+            background-image: url("https://i.pinimg.com/originals/94/0a/01/940a01a2575d4675343e8d10b62c9c09.jpg");
+        }
+        .container .box{
+            width: 350px;
+            padding: 40px;
+            background: white;
+            box-shadow: 0 5px 15px;
+            border-radius: 4px;
+            margin: 20px;
+            box-sizing: border-box;
+        }
+        .container .box .icon{
+            height: 80px;
+            width: 80px;
+            background: black;
+            color: white;
+            border-radius: 50%;
+            align-items: center;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 700;
+            transition: 1s ease;
+        }
+        .container .box:nth-child(1) icon{
+            box-shadow: 0 0 0 0 rgb(36, 58, 82);
+            background: rgb(36, 58, 82);
+        }
+        .container .box:nth-child(1):hover .icon{
+            box-shadow: 0 0 0 400px rgb(36, 58, 82);
+        }
+        .container .box:nth-child(2) .icon{
+            box-shadow: 0 0 0 0 purple;
+            background: purple;
+        }
+        .container .box:nth-child(2):hover .icon{
+            box-shadow: 0 0 0 400px blueviolet;
+        }
+        .container .box:nth-child(3) .icon{
+            box-shadow: 0 0 0 0 gray;
+            background: gray;
+        }
+        .container .box:nth-child(3):hover .icon{
+            box-shadow: 0 0 0 400px rgb(202, 197, 197);
+        }
+        .container .box .content{
+            position: relative;
+            z-index: 1;
+            transition: 0.5 ease;
+        }
+        .container .box:hover .content{
+            color: white;
+        }
+        .container .box .content h3{
+            font-size: 20px;
+            padding: 1px;
+            margin: 10px 0;
+        }
+        .container .box .content p{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+        display: inline-block;
+        padding: 10px 20px;
+        background: white;
+        border-radius: 4px;
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        margin-top: 20px;
+        box-shadow: 0 2px 5px purple;
+    }
+    </style>
+
+
+
+
+
+
 </html>
 <style>
     *{
@@ -36,16 +153,16 @@
         padding: 5px;
     }
     body{
-        background-color:black ;
-        color: white;
+        background-image: url("https://i.pinimg.com/474x/2c/90/f7/2c90f7f002517459688410830ac26d0f--putih-hitam-black-wallpaper.jpg");
+        color:inherit;
         text-align: center;
+        background-attachment: fixed;
     }
 
     .cheese{
         border:1px solid inherit ;
         border-radius: 10px;
         width: 100%;
-        
     }
     .cheese1{
         text-transform: capitalize;
@@ -54,6 +171,8 @@
     }
     label{
         font-family: 'Courier New', Courier, monospace;
+        float: left;
+        padding: 16px;
     }
     #ant{
         width: 100%;
@@ -74,6 +193,10 @@
         font-weight: 200;
         font-size: 20px;
         margin: 2px;
+        padding: 16px;
+    }
+    hr{
+        padding: 0px;
     }
     @media only screen and (orientation:landscape){
         body{
@@ -84,5 +207,231 @@
             width: 20%;
             text-align: center;
         }
+        .ant{
+            margin-top: -35%;
+            float: right;
+            margin-right: 10%;
+            border-radius: 70%;
+        }
+        .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
+    @media only screen and (max-width:800px){
+        .ant{
+                float:right;
+                width: 400px;
+                height: 450px;
+                margin-right: -30%;
+                margin-top: -80%;
+                background-attachment: fixed;
+            }
+        body{
+            padding: 5px;
+            margin-left:;
+        }
+        .cheese{
+            width: 40%;
+            text-align: center;
+        }
+        .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+        .container .box{
+            width: 200px;
+            padding: 5px;
+            background: white;
+            box-shadow: 0 5px 15px;
+            border-radius: 4px;
+            margin: ;
+            box-sizing: border-box;
+        }
+        .content-background{
+            padding:;
+            align-items: center;
+            width: 150%;
+        }
+        @media only screen and (max-width:700px){
+        .ant{
+                float:right;
+                width: 400px;
+                height: 450px;
+                margin-right: -30%;
+                margin-top: -80%;
+                background-attachment: fixed;
+            }
+        body{
+            padding: 5px;
+            margin-left:;
+        }
+        .cheese{
+            width: 40%;
+            text-align: center;
+        }
+        .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+        .container .box{
+            width: 200px;
+            padding: 5px;
+            background: white;
+            box-shadow: 0 5px 15px;
+            border-radius: 4px;
+            margin: ;
+            box-sizing: border-box;
+        }
+        .content-background{
+            padding:;
+            align-items: center;
+            width: 150%;
+        }
+        @media only screen and (max-width:600px){
+        .ant{
+                float:right;
+                width: 400px;
+                height: 450px;
+                margin-right: -30%;
+                margin-top: -80%;
+                background-attachment: fixed;
+            }
+        body{
+            padding: 5px;
+            margin-left:;
+        }
+        .cheese{
+            width: 40%;
+            text-align: center;
+        }
+        .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+        .container .box{
+            width: 200px;
+            padding: 5px;
+            background: white;
+            box-shadow: 0 5px 15px;
+            border-radius: 4px;
+            margin: ;
+            box-sizing: border-box;
+        }
+        .content-background{
+            padding:;
+            align-items: center;
+            width: 150%;
+        }
+        @media only screen and (max-width:500px){
+        .ant{
+                float:right;
+                width: 400px;
+                height: 450px;
+                margin-right: -30%;
+                margin-top: -80%;
+                background-attachment: fixed;
+            }
+        body{
+            padding: 5px;
+            margin-left:;
+        }
+        .cheese{
+            width: 40%;
+            text-align: center;
+        }
+        .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+        .container .box{
+            width: 200px;
+            padding: 5px;
+            background: white;
+            box-shadow: 0 5px 15px;
+            border-radius: 4px;
+            margin: ;
+            box-sizing: border-box;
+        }
+        .content-background{
+            padding:;
+            align-items: center;
+            width: 150%;
+        }
+        @media only screen and (max-width:1000px){
+        .ant{
+                float:right;
+                width: 400px;
+                height: 450px;
+                margin-right: -30%;
+                margin-top: -80%;
+                background-attachment: fixed;
+            }
+        body{
+            padding: 5px;
+            margin-left:;
+        }
+        .cheese{
+            width: 40%;
+            text-align: center;
+        }
+        .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+        .container .box{
+            width: 200px;
+            padding: 5px;
+            background: white;
+            box-shadow: 0 5px 15px;
+            border-radius: 4px;
+            margin: ;
+            box-sizing: border-box;
+        }
+        .content-background{
+            padding:;
+            align-items: center;
+            width: 150%;
+        }
+        @media only screen and (max-width:900px){
+        .ant{
+                float:right;
+                width: 400px;
+                height: 450px;
+                margin-right: -30%;
+                margin-top: -80%;
+                background-attachment: fixed;
+            }
+        body{
+            padding: 5px;
+            margin-left:;
+        }
+        .cheese{
+            width: 40%;
+            text-align: center;
+        }
+        .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+        .container .box{
+            width: 200px;
+            padding: 5px;
+            background: white;
+            box-shadow: 0 5px 15px;
+            border-radius: 4px;
+            margin: ;
+            box-sizing: border-box;
+        }
+        .content-background{
+            padding:;
+            align-items: center;
+            width: 150%;
+        }
 </style>
