@@ -1,3 +1,4 @@
+
 <html>
     <form action="README.md">
         <button class="class1" type="submit" name="enter"><p>ENTER</p></button>
@@ -5,21 +6,21 @@
 </html>
 <style>
     body{
-        background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2015/04/1931556.jpg");
+        background-image: url("https://images.unsplash.com/photo-1463438690606-f6778b8c1d10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80");
         text-align: center;
     }
     .class1{
-        color: brown;
+        background-color: inherit;
         text-align: center;
-        width: 300px;
-        height: 200px;
-        border-radius: 10px;
+        width: 200px;
+        height: 100px;
+        border-radius: 10%;
         margin-top: 25%;
 
     }
     p{
-        font-size: 50px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
         font-weight: 700;
+    font-family: 'cursive';
     }
 </style>
