@@ -171,6 +171,7 @@
     }
     @keyframes blackandwhite {
     20%{background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2015/04/1931556.jpg");}
+    30%{background-image: url("20%{background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2015/04/1931556.jpg");}");}
     50%{background-image: url("https://wallpapertag.com/wallpaper/full/1/c/9/143774-amazing-black-and-white-striped-background-1920x1252-windows-10.jpg");}
     70%{background-image: url("https://cdn.wallpapersafari.com/93/28/HTtv2W.jpg");}
     90%{background-image: url("https://th.bing.com/th/id/R.23beef9de2bc25fa77928a87c3fc9d8c?rik=7abe4MO5GOrGnA&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f76%2f58%2fE2ol6A.jpg&ehk=bOEPRK5EQRkcrZetuCEmEfaRp1pIvZEbjFrDnkmOFi0%3d&risl=&pid=ImgRaw&r=0");}
