@@ -12,15 +12,15 @@
     .class1{
         background-color: inherit;
         text-align: center;
-        width: 300px;
+        width: 200px;
         height: 100px;
-        border-radius: 50%;
+        border-radius: 10%;
         margin-top: 25%;
 
     }
     p{
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 700;
-    font-family: 'Festive', cursive;
+    font-family: 'cursive';
     }
 </style>
