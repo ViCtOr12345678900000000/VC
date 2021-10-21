@@ -10,11 +10,11 @@
         text-align: center;
     }
     .class1{
-        color: inherit;
+        background-color: inherit;
         text-align: center;
         width: 300px;
         height: 100px;
-        border-radius: 25%;
+        border-radius: 50%;
         margin-top: 25%;
 
     }
