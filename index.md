@@ -1,5 +1,8 @@
 
 <html>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
     <form action="black testing.html">
         <button class="class1" type="submit" name="enter"><p>ENTER</p></button>
     </form>
@@ -10,7 +13,7 @@
         text-align: center;
     }
     .class1{
-        color: brown;
+        color: inherit;
         text-align: center;
         width: 300px;
         height: 200px;
@@ -20,7 +23,6 @@
     }
     p{
         font-size: 50px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-weight: 700;
     }
 </style>
