@@ -54,7 +54,7 @@
                     <h3>Buju</h3>
                     <p>When i give gbedu e dey blow their mind. You know they can't see me outside cos me i dey work i dey grind</p>
                     <a href="https://db.soloplay.com.ng/wp-content/uploads/2021/05/Buju_-_Outside_Soloplay.ng.mp3">Download Song</a>
-                    <a href="bjreadmore.html" target="_blank">Play</a>
+                    <a href="README.md" target="_blank">Play</a>
                 </div>
             </div>
         </div>
