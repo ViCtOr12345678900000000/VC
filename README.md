@@ -161,7 +161,7 @@
         padding: 5px;
     }
     body{
-        background-image: url("https://media.istockphoto.com/photos/colored-pencils-on-the-yellow-background-picture-id1300156236?b=1&k=20&m=1300156236&s=170667a&w=0&h=O7J-QuMHs9ftRwpoFhHx5B7owqz2jZNqIAxmfEUuB2E=");
+        background-image: url("https://cdn.pixabay.com/photo/2017/08/30/12/45/girl-2696947__340.jpg");
         color:inherit;
         text-align: center;
         background-attachment: fixed;
