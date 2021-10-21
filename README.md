@@ -1,1 +1,131 @@
-# new
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class="container">
+            <img class="ant" src="https://www.dcleakers.com/wp-content/uploads/2021/05/Buju-picture.jpeg" width="250px" height=300px">
+            <br>
+            <audio class="controls" controls>
+                <source src="https://db.soloplay.com.ng/wp-content/uploads/2021/05/Buju_-_Outside_Soloplay.ng.mp3" type="audio/mp3">
+            </audio>
+            <hr>
+            <div class="child">
+            <p>
+                [Intro]<br/>
+Ummm ummm, ohhh ohhhh
+Ehnn ehnn, ohhh ohhh
+
+[Verse 1]<br/>
+Talking 'bout me man, big up your chest I swear
+If you no get money e dey kill idea
+Well I face my fears
+There's nothing I can do from here
+Omo, in the first stage I made mistakes I swear
+For knowledge I sacrifice my fears
+And I stand right here
+I say I'm better and you can't compare<br/><br/>
+
+[Chorus]<br/>
+Cos when I give them gbedu e dey blow their mind
+You know they can't see me outside
+When me I dey work, I dey grind
+When I give them gbedu e dey blow their mind
+You know they can't see me outside
+Cos me I dey work, I dey grind
+When I give them gbedu e dey blow their mind
+You know they can't see me outside
+Cos me I dey work, I dey grind
+When I give them gbedu e dey blow their mind
+You know they can't see me outside
+Cos me I dey work, I dey grind<br/><br/>
+
+
+[Verse 2]<br/>
+Me I still dey look for my cheddar
+I know say nobody holy brudda
+But if me and you get issues
+I forgive you and I no reason you as the color for you
+I know say nobody holy brudda and me I still dey look for my cheddar
+But if me and you get issues
+I forgive you and I no reason you and it's simply the truth
+I tell you truth I no lie to you, jeje
+And dem fit like dem fit dance it oh, jeje
+And I go wild, I fit hide no more, for my cheddar
+You know me I don't play
+And dem no like dem like it oh, jeje
+I no fit force untop on you oh, jeje
+But you know say I gbadun you oh
+You fit dance it oh, if e dey sweet you oh<br/><br/>
+
+[Chorus]<br/>
+Cos when I give them gbedu e dey blow their mind
+You know they can't see me outside
+When me I dey work, I dey grind
+When I give them gbedu e dey blow their mind
+You know they can't see me outside
+Cos me I dey work, I dey grind
+When I give them gbedu e dey blow their mind
+You know they can't see me outside
+Cos me I dey work, I dey grind
+When I give them gbedu e dey blow their mind
+You know they can't see me outside
+Cos me I dey work, I dey grind<br/>
+            </p>
+        </div>
+        </div>
+    </body>
+    <style>
+        *{
+            margin: 0;
+        box-sizing: border-box;
+        list-style: none;
+        padding: 5px;
+        }
+        body{
+            text-align: center;
+            background-image: url("https://cdn.wallpapersafari.com/93/28/HTtv2W.jpg");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .ant{
+            border-radius: 25%;
+            justify-content: center;
+            margin-top: 20%;
+        }
+        .container{
+            border: 1px solid inherit;
+            border-radius: 10px;
+            width: 350px;
+            height: 1200px;
+            background-image: url("");
+            margin-left:5%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+        .controls{
+            padding: 5px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        hr{
+            padding: 0px;
+        }
+        .child{
+            border-radius: 20%;
+            width: 350px;
+            height: 200px;
+            margin-left: 5%%;
+        }
+        p{
+            padding: 3px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 15px;
+            text-decoration-color: burlywood;
+            font-weight: 500;
+            color: lavender;
+        }
+    </style>
+</html>
