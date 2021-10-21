@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -153,9 +152,6 @@
 
 
 
-
-
-</html>
 <style>
     *{
         margin: 0;
@@ -164,7 +160,7 @@
         padding: 5px;
     }
     body{
-        background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2015/04/1931556.jpg");
+        background-image: url("https://i.pinimg.com/474x/2c/90/f7/2c90f7f002517459688410830ac26d0f--putih-hitam-black-wallpaper.jpg");
         color:inherit;
         text-align: center;
         background-attachment: fixed;
@@ -172,10 +168,9 @@
         animation-iteration-count: infinite;
         animation-duration: 120s;
         transition: 5s ease-out;
-        animation-delay: 10s;
     }
-    @keyframes blackandwhit {
-    30%{background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2015/04/1931556.jpg");}
+    @keyframes blackandwhite {
+    20%{background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2015/04/1931556.jpg");}
     50%{background-image: url("https://wallpapertag.com/wallpaper/full/1/c/9/143774-amazing-black-and-white-striped-background-1920x1252-windows-10.jpg");}
     70%{background-image: url("https://cdn.wallpapersafari.com/93/28/HTtv2W.jpg");}
     90%{background-image: url("https://th.bing.com/th/id/R.23beef9de2bc25fa77928a87c3fc9d8c?rik=7abe4MO5GOrGnA&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f76%2f58%2fE2ol6A.jpg&ehk=bOEPRK5EQRkcrZetuCEmEfaRp1pIvZEbjFrDnkmOFi0%3d&risl=&pid=ImgRaw&r=0");}
@@ -220,10 +215,6 @@
     hr{
         padding: 0px;
     }
-     .content-background{
-            align-items: center;
-            width: 150%;
-        }
     @media only screen and (orientation:landscape){
         body{
             padding: 5px;
@@ -443,5 +434,4 @@
         }
 </style>
 
-        
-
+</html>
