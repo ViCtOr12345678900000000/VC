@@ -160,7 +160,7 @@
         padding: 5px;
     }
     body{
-        background-image: url("https://i.pinimg.com/474x/2c/90/f7/2c90f7f002517459688410830ac26d0f--putih-hitam-black-wallpaper.jpg");
+        background-image: url("https://media.istockphoto.com/photos/colored-pencils-on-the-yellow-background-picture-id1300156236?b=1&k=20&m=1300156236&s=170667a&w=0&h=O7J-QuMHs9ftRwpoFhHx5B7owqz2jZNqIAxmfEUuB2E=");
         color:inherit;
         text-align: center;
         background-attachment: fixed;
@@ -169,7 +169,7 @@
         animation-duration: 120s;
         transition: 5s ease-in-out;
     }
-    @keyframes blackandwhite {
+    @keyframes blackandwhit {
     20%{background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2015/04/1931556.jpg");}
     30%{background-image: url("https://media.istockphoto.com/photos/colored-pencils-on-the-yellow-background-picture-id1300156236?b=1&k=20&m=1300156236&s=170667a&w=0&h=O7J-QuMHs9ftRwpoFhHx5B7owqz2jZNqIAxmfEUuB2E=")
     50%{background-image: url("https://wallpapertag.com/wallpaper/full/1/c/9/143774-amazing-black-and-white-striped-background-1920x1252-windows-10.jpg");}
