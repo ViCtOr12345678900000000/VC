@@ -1,8 +1,5 @@
 
 <html>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
     <form action="black testing.html">
         <button class="class1" type="submit" name="enter"><p>ENTER</p></button>
     </form>
@@ -24,5 +21,6 @@
     p{
         font-size: 50px;
         font-weight: 700;
+    font-family: 'Festive', cursive;
     }
 </style>
