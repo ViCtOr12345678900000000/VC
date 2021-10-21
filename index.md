@@ -270,7 +270,7 @@
         }
         .content-background{
             align-items: center;
-            width: 150%;
+            width: 200%;
         }
         @media only screen and (max-width:700px){
         .ant{
@@ -303,7 +303,7 @@
         }
         .content-background{
             align-items: center;
-            width: 150%;
+            width: 200%;
         }
         @media only screen and (max-width:600px){
         .ant{
@@ -336,7 +336,7 @@
         }
         .content-background{
             align-items: center;
-            width: 150%;
+            width: 200%;
         }
         @media only screen and (max-width:500px){
         .ant{
@@ -369,7 +369,7 @@
         }
         .content-background{
             align-items: center;
-            width: 150%;
+            width: 200%;
         }
         @media only screen and (max-width:1000px){
         .ant{
@@ -402,7 +402,7 @@
         }
         .content-background{
             align-items: center;
-            width: 150%;
+            width: 200%;
         }
         @media only screen and (max-width:900px){
         .ant{
@@ -435,7 +435,7 @@
         }
         .content-background{
             align-items: center;
-            width: 150%;
+            width: 200%;
         }
 </style>
 
