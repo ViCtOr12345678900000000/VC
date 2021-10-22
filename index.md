@@ -1,6 +1,6 @@
 
 <html>
-    <form action="black testing.html">
+    <form action="README.md" target="_blank">
         <button class="class1" type="submit" name="enter"><p>ENTER</p></button>
     </form>
 </html>
