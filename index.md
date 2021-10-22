@@ -19,7 +19,7 @@ color: white;
 
 
 </style>
-</head>
+
 <body>
 
 <button  onclick="myFunction()">Dark Mode</button>
