@@ -1,4 +1,3 @@
-
 <html>
     <form action="black testing.html" target="_blank">
         <button class="class1" type="submit" name="enter"><p>ENTER</p></button>
@@ -17,6 +16,10 @@
         border-radius: 50px;
         margin-top: 25%;
 
+    }
+    .class1:hover{
+    background-color:white;
+    font-family:'Roboto', sans-serif;
     }
     p{
         font-size: 20px;
