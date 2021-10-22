@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
+    
+
+
         <div class="cheese">
             <div class="cheese1">Contact Info<hr></div>
             <form action="#" target="_blank">
@@ -60,6 +63,16 @@
         </div>
         </div>
     </div>
+    <footer>
+        <div class="container">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <p>@ All rights reserved</p>
+        </div>
+    </footer>
     </body>
 
     <style>
