@@ -64,7 +64,7 @@
         </div>
     </div>
     <footer>
-        <div class="container">
+        <div class="container1">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Services</a></li>
@@ -181,6 +181,17 @@
         animation-iteration-count: infinite;
         animation-duration: 120s;
         transition: 5s ease-in-out;
+    }
+    footer{
+        background-color:black;
+        padding:32px;
+        text-align:center;
+        color:white;
+    }
+    .container1{
+        margin:0 auto;
+        padding: 0 20px 0 20px;
+        max-width:900px;
     }
     @keyframes blackandwhit {
     20%{background-image: url("https://www.hdwallpaper.nu/wp-content/uploads/2015/04/1931556.jpg");}
