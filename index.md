@@ -20,6 +20,7 @@
     .class1:hover{
     background-color:white;
     font-family:'Roboto', sans-serif;
+    color:black;
     }
     p{
         font-size: 20px;
