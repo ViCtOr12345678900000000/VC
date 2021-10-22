@@ -5,9 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-    
-
-
         <div class="cheese">
             <div class="cheese1">Contact Info<hr></div>
             <form action="#" target="_blank">
