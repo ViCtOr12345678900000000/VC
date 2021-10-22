@@ -8,8 +8,8 @@
         <style>
         body {
   padding: 25px;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   font-size: ;
 }
 
@@ -133,29 +133,29 @@ Won wa mi</p>
             font-weight: 700;
             transition: 1s ease;
         }
-        .container .box:nth-child(1) icon{
+        .container .box:nth-child(1) .icon {
             box-shadow: 0 0 0 0 rgb(36, 58, 82);
-            background: rgb(36, 58, 82);
+            background-color: rgb(36, 58, 82);
         }
         .container .box:nth-child(1):hover .icon{
-            box-shadow: 0 0 0 400px rgb(36, 58, 82);
-            color:rgb(36, 58, 82) ;
+            box-shadow: 0 0 0 400px rgb(129, 142, 156);
+            color:white ;
         }
-        .container .box:nth-child(2) .icon{
+        .container .box:nth-child(2) .icon {
             box-shadow: 0 0 0 0 purple;
-            background: purple;
+            background-color: purple;
         }
         .container .box:nth-child(2):hover .icon{
             box-shadow: 0 0 0 400px blueviolet;
-            color: black;
+            color: white;
         }
         .container .box:nth-child(3) .icon{
             box-shadow:  0 0 0 gray;
-            background: gray;
+            background-color:gray ;
         }
         .container .box:nth-child(3):hover .icon{
             box-shadow: 0 0 0 400px rgb(214, 202, 202);
-            color :black;
+            color :white;
             background-image: url("https://db.soloplay.com.ng/wp-content/uploads/2021/05/Buju_-_Outside_Soloplay.ng.mp3");
         }
         .container .box .content{
@@ -263,24 +263,40 @@ Won wa mi</p>
         padding: 0px;
     }
     @media only screen and (orientation:landscape){
+        .ant{
+                float:right;
+                width: 400px;
+                height: 450px;
+                margin-right: -20px;
+                margin-top: -45%;
+                background-attachment: fixed;
+                border-radius: 50%;
+            }
         body{
-            padding: 5px;
+            padding: ;
         }
         .cheese{
             width: 20%;
             text-align: center;
         }
-        .ant{
-            margin-top: -35%;
-            float: right;
-            margin-right: 10%;
-            border-radius: 70%;
-        }
         .container{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-    }
+        }
+        .container .box{
+            width: 250px;
+            padding: 2px;
+            background: white;
+            box-shadow: 0 5px 15px;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .content-background{
+            align-items: center;
+            width: 100%;
+            margin-left: -5px;
+        }
     @media only screen and (max-width:800px){
         .ant{
                 float:right;
